@@ -1,7 +1,7 @@
-import click from "./click"
-import hover from "./hover"
-import scroll from "./scroll"
+import {clickImages}  from "./click.js"
+import {hoverHeader} from "./hover.js"
+import {scrollWindow} from "./scroll.js"
 
-click()
-hover()
-scroll()
+clickImages()
+hoverHeader()
+scrollWindow()
